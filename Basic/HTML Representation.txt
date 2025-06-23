@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>HTML Representation</title>
+</head>
+<body>
+<header>Tourist places <nav>nav</nav>
+</header>
+<section>section<article>
+<b>City</b><br>
+pune<br>
+banglore<br>
+hyderabad<br>
+delhi<br>
+</article>
+</section>
+<aside>Tourist places in pune<br>
+shanivarwada<br>
+kelkar<br>
+sinhagad<br>
+</aside>
+<footer>footer</footer>
+</body>
+</html>

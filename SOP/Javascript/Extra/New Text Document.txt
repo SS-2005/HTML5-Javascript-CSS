@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<title>SOP1_1</title>
+<head>
+<script language="javascript">
+function violet()
+{
+document.bgColor="violet";
+setTimeout("indigo()",2000);
+}
+function indigo()
+{
+document.bgColor="indigo";
+setTimeout("blue()",2000);
+}
+function blue()
+{
+document.bgColor="blue";
+setTimeout("green()",2000);
+}
+function green()
+{
+document.bgColor="green";
+setTimeout("yellow()",2000);
+}
+function yellow()
+{
+document.bgColor="yellow";
+setTimeout("orange()",2000);
+}
+function orange()
+{
+document.bgColor="orange";
+setTimeout("red()",2000);
+}
+function red()
+{
+document.bgColor="red";
+setTimeout("vowels()",2000);
+}
+function vowels()
+{
+var i,ch,str,count=0;
+str=document.f1.t1.value;
+for(i=0;i<str.length;i++)
+{
+ch=str.charAt(i);
+if((ch=="a")||(ch=="A")||(ch=="e")||(ch=="E")||(ch=="i")||(ch=="I")||
+(ch=="o")||(ch=="O")||(ch=="u")||(ch=="U"))
+{
+count++
+}
+}
+alert("Number of Vowels=" + count);
+setTimeout("violet()",1000);
+}
+</script>
+</head>
+<body>
+<h1>Program For Counting Number Of Vowels</h1>
+<form name="f1">
+Enter A String: <input type="text" name="t1">
+<br><br>
+<input type="submit" value="Count Vowel" onClick="violet()">
+</form>
+</body>
+</html>

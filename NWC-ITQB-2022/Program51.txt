@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function perimeter()
+{
+var a,b,c;
+a=parseInt(prompt("Enter Base"));
+b=parseInt(prompt("Enter height"));
+c=2*a+2*b;
+document.write("Perimetetr of Parallelogram is "+ c);
+}
+</script>
+</head>
+<body>
+<h1>Program 51</h1>
+<form>
+<input type="button" value="Activate" onClick="perimeter()">
+</body>
+</html>

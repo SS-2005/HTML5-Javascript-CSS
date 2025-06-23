@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+<head>
+<title>Inline CSS</title>
+</head>
+<body style="background:red">
+<h1 stle="font-family:magneto;color:yellow">Nowrosjee Wadia College</h1>
+<p style="font-family:calibri;color:blue">It specilizes In Arts & Science</p>
+</body>
+</html>

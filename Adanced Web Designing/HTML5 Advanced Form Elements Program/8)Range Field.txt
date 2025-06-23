@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Range Field</title>
+</head>
+<body>
+<h1>Example of Range Field</h1>
+<form name="f1">
+Enter Range:<input type="range" name="r1">
+<br><br>
+</form>
+</body>
+</html>

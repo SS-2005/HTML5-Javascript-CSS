@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SOP4</title>
+<script type="text/javascript">
+function check()
+{
+var i,str,rev="";
+str=document.f1.t1.value;
+for(i=str.length;i>=0;i--)
+{rev=rev+str.charAt(i);}
+document.write("Original String="+ str+"<br>");
+document.write("Reversed String="+ rev+"<br>");
+if(str==rev)
+{alert("It is a Palindrome");}
+else
+alert("It is not a Palindrome");
+}
+</script>
+</head>
+<body>
+<h1>Program </h1>
+<p>PALINDROME</p>
+<form name="f1">
+Enter string: <input type="text" name="t1"><br>
+<br>
+<input type="button" value="Check" onClick="check()">
+<br>
+</form>
+</body>
+</html>

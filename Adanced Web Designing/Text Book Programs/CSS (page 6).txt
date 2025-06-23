@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<title>Internal CSS or Embedded Stylesheet </title>
+<style>
+h1{color:red;text-align:center}
+p{font-family:calibri;font-style:italic}
+body{background-color:black}
+</style>
+</head>
+<body>
+<h1>Internal CSS or Embedded Stylesheet</h1>
+<p>This is used to apply CSS on a single Document or page. It affects all elements of page
+it is written inside style tag within head section.</p>
+</body>
+</html>

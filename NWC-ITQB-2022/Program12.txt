@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function prime()
+{
+var a,i,ans;
+a=parseInt(document.f1.n1.value);
+ans=1;
+for(i=2;,i<=a;i++)
+{if(a%i==0)
+ans=0;
+break;}
+if(ans==1)
+alert("Prime No.");
+else
+alert("Not a Prime No.")
+}
+</script>
+</head>
+<body>
+<h1>Program 12</h1>
+<form name="f1">
+Enter Number:<input type="number" name="n1">
+<br><br>
+<input typr="button" value="Check" onClick="prime()">
+</form>
+</body>
+</html>

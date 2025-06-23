@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function area()
+{
+var a,b;
+a=parseInt(prompt("Enter Radius"));
+b=3.14*a*a;
+alert("Area of Circle "+ b);
+}
+</script>
+</head>
+<body>
+<h1>Program 55</h1>
+<form><b>Q</b>Write a Event Driven program in JavaScript to accept  radius from user and Display Area of Circle<br><br>
+<b>Formula</b>:Area =3.14*r*r<br><br><br>
+<b>Solution</b><input type="button" value="Trigger Program on Click" onClick="area()">
+</body>
+</html>

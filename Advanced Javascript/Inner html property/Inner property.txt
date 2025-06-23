@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>Inner HTML Property</title>
+<script type="text/javascript">
+function change()
+{
+var openstyle="<h1 style=color:green>";
+var text="Welcome to Html5";
+var closestyle="</h1>";
+document.getelementbyId(para).innerHTML=openstyle + text + closestyle;
+}
+</script></head>
+<body style="background-color:red">
+<p id="para">Welcome</p>
+<form>
+<input type="button" value="Click to chane page style" onClick="change()">
+</form>
+</body>
+</html>

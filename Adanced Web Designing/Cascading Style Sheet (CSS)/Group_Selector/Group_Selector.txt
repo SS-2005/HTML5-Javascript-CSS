@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Group Selector</title>
+<style>
+h1.p,h5{font-family:arial;color:red;background-color:grey}
+</head>
+<body>
+<h1>Heading level 1</h1>
+<p>Paragraph 1</p>
+<h5>Heading Level 5</h5>
+Normal Font
+</body>
+</html>

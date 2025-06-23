@@ -1,0 +1,3 @@
+h1{color:maroon;letter-spacing:10px;font-famliy:calibri;backgroud-color:gray}
+p{font-family:arail;color:green;background-color:red}
+body{background-color:Maroon;color:black}

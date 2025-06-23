@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Week picker</title>
+</head>
+<body>
+<h1>Example of week</h1>
+<form name="f1">
+Enter week: <input type="week">
+<br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

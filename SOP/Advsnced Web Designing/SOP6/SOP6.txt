@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+<title>Adding video on webpage</title>
+</head>
+<body>
+<h1>Adding video on webpage</h1>
+<video src="anu.ogv" controls loop autoplay>
+</video>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>Program</title>
+<script type="text/javascript">
+function Vowels()
+{
+var i,ch,str,count=0;
+str=document.f1.t1.value;
+for(i=0;i<str.length;i++)
+{
+ch=str.charAt(i);
+if((ch=="A")||(ch=="a")||(ch=="e")||(ch=="E")||(ch=="I")||(ch=="i")||(ch=="O")||(ch=="o")||(ch=="U")||(ch=="u"))
+{count++}
+}
+alert("No.of Vowels="+count);
+}
+</script>
+</head>
+<body>
+<h1>Program</h1>
+<form name="f1" method="POST">
+Enter String:<input type="text" name="t1"><br>
+<input type="button" value="Check" onClick="Vowels()">
+</form>
+</body>
+</html>

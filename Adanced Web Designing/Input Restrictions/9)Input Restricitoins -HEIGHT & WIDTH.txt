@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>Input Restriction</title>
+</head>
+<body>
+<h1>Input Restrictions- HEIGHT & WIDTH</h1>
+<form name="f1">
+Enter Name: <input type="text" name="t1" required>
+<br><br>
+<input type="image" src="Submit.jpg" height="50" width="50">
+</form>
+</body>
+</html>

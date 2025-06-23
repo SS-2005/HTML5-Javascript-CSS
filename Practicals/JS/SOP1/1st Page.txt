@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+<title>SOP1</title>
+</head>
+<body>
+<h1>EDJSP</h1>
+<form name="f1">
+<input type="button" value="Move Cursor Here" onMouseOver="">
+</form>
+</html>

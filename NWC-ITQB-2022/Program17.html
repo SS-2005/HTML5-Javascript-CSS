@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function maximum()
+{
+var a,b,c,d,e;
+a=parseInt(document.f1.n1.value);
+b=parseInt(document.f1.n2.value);
+c=parseInt(document.f1.n3.value);
+d=parseInt(document.f1.n4.value);
+e=Math.max(a,b,c,d);
+document.f1.n5.value=e;
+}
+</script>
+</head>
+<body>
+<h1>Program 17</h1>
+<form name="f1">
+Minimum Number:<input type="number" name="n5"><br><br>
+<input type="button" value="Max Number" onClick="maximum()">
+<br>
+Enter no.1: <input type="number" name="n1"><br>
+Enter no.2: <input type="number" name="n2"><br>
+Enter no.3: <input type="number" name="n3"><br>
+Enter no.4: <input type="number" name="n4"><br>
+</form>
+</body>
+</html>

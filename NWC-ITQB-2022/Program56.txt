@@ -1,0 +1,22 @@
+<!doctytpe html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function area()
+{
+var a,b,c;
+a=parseInt(prompt("Enter Base"));
+b=parseInt(prompt("Enter Height"));
+c=0.5*a*b;
+alert("Area of Triangle "+ c);
+}
+</script>
+</head>
+<body>
+<h1>Program 56</h1>
+<form><b>Q .</b>Write a Event Driven program in JavaScript to accept  Base and Height from user and Display Area of Triangle<br><br>
+<b>Formula</b>:Area =0.5*h*b <br><br><br>
+<b>Solution :</b><input type="button" value="Trigger Program on Click" onClick="area()">
+</body>
+</html>

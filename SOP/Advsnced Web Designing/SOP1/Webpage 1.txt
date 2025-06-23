@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Webpage 1</title>
+<meta name="author" content="HSC board">
+<meta name="keyword" content="CSS,HTML">
+<meta name="discription" content="HTML5,CSS code">
+<meta name="copyright" content="Copyright All right reserve">
+<meta charset="UTF-8">
+<style>
+h1{align:center}
+</style>
+</head>
+<body>
+<h1>THE HEADING</h1>
+<p>
+<i>The paragrapgh contaning the general information</i><br>
+<u>Small text</u><br>
+<b>Highlighted text</b>
+</p>
+<br><br>
+<img src="Tulips.jpg" alt="Image">
+<br>
+LINKS
+<a href="https://www.youtube.com/">
+<a href="https://www.google.com/">
+</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function display()
+{
+var i;
+for(i=11;i<=31;i++)
+if(i%2 !== 0)
+document.write(i+"<br>")
+}
+</script>
+</head>
+<body>
+<h1>Program 14</h1>
+<form name="f1">
+<input type="button" value="Display" onClick="display()">
+</form>
+</body>
+</html>

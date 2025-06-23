@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function sum()
+{
+var i,sum;
+sum=0;
+for(i=10;i<=30;i++)
+if(i%2 !==0)
+sum=sum+i;
+document.f1.n1.value=sum;
+}
+</script>
+</head>
+<body>
+<h1>Program 9</h1>
+<form name="f1">
+Sum:<input type="number" name="n1"><br>
+<input type="button" value="Calculate" onMouseOver="sum()">
+</form>
+</body>
+</html>

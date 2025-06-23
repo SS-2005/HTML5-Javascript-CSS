@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>1)Input Restriction-Disabled</title>
+</head>
+<body>
+<h1>1)Input Restriction-Disabled</h1>
+<form name="f1">
+Enter Name:<input type="text" name="t1">
+STD:       <input type="text" name="t2" disabled>
+</form></body></html>

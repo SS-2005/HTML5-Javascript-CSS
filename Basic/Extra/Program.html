@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>IT-QB</title>
+<script type="text/javascript">
+function maximum()
+{
+var a,b,c,d;
+a=parseInt(document.f1.n1.value);
+b=parseInt(document.f1.n2.value);
+c=parseInt(document.f1.n3.value);
+d=Math.max(a,b,c);
+document.f1.n4.value=d;
+}
+</script>
+</head>
+<body><h1>Program </h1>
+<form name="f1">
+Enter Number 1:<input type="number" name="n1"><br>
+Enter Number 2:<input type="number" name="n2"><br>
+Enter Number 3:<input type="number" name="n3"><br>
+<input type="button" value="Trigger Program On click" onClick="maximum()">
+<br><br>
+Max Entered Number: <input type="number" name="n4"><br>
+</form></body>
+</html>

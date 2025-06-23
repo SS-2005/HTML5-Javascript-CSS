@@ -1,0 +1,16 @@
+<!doctype html> <html>
+<head>
+<title>SOP3</title>
+<link href="Travel.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Travel Information</h1> <p>Following are your Travel details</p>
+<ul>
+<li>Time 09:30 AM</li> 1
+<li>Name of Transporter - Air Asia</li> <li>Destination - Delhi</li>
+<li>Seat no. B39</li>
+<br><br><br>
+<h5>First Page</h5>
+<a href="First Page.html">Previous Page</a>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>SOP1</title>
+</head>
+<body>
+<h1>Program to check vote eligiblity</h1>
+<form method="POST" action="PHP.php">
+Enter Age:<input type="number" name="n1"><br><br>
+<input type="submit" value="Check Eligibility">
+<input type="reset" value="Try With Another Age">
+</form>
+</body>
+</html>

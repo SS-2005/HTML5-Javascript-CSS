@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<body>
+<p> Audio Sample</p>
+<audio controls>
+<source src="Audio.mp3" type="audio/mp3">
+</audio>
+</body>
+</html>

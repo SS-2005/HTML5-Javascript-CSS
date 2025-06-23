@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>CSS Properties</title>
+<style>
+h1
+{
+color:maroon;
+text-decoration:overline;
+letter-spacing:10px
+}
+p
+{
+font-family:calibri;
+color:blue;
+font-weight:bold
+}
+body{background-color:black}
+</style>
+</head>
+<body>
+<h1>NOWROSJEE WADIA COLLEGE</h1>
+<P>It was established in 1932</P>
+<P>It specializes in Arts and Science<p> 
+<P>It is A+ grade college</p>
+</body>
+</html>

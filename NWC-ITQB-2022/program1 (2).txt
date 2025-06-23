@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>JS-PROGRAMS</title>
+<script type="text/javascript">
+function Check()
+{
+var a,b,c;
+a=parseInt(prompt("Enter No.1"));
+b=parseInt(prompt("Enter No.2"));
+c=Math.max(a,b);
+alert("Large No. is"+c);
+}
+</script>
+</head>
+<body onload="Check()">
+<h1>Max Math Object</h1>
+</body>
+</html>

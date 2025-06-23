@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function factorial()
+{
+var i,num,fact;
+num=parseInt(prompt("Enter Number"));
+fact=1;
+for(i=1;i<=num;i++)
+fact=fact*i;
+alert("Factorial of"+ num +" is"+ fact);
+}
+</script>
+</head>
+<body>
+<h2>Program 34</h2>
+<form>
+<input type="button" value="Factorial" onClick="factorial()">
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>iITQB</title>
+</head>
+<body>
+<h1>Program 18</h1>
+<script type="text/javascript">
+function Addition()
+{
+var value,sum = 0;
+value=parseInt(prompt("Enter Number"))
+while (value) 
+{
+sum+= value % 10;
+value= Math.floor(value / 10);
+}
+alert(sum);
+}
+</script>
+<form>
+<input type="button" value="Add Digits" onClick="Addition()">
+</form>
+</body>
+</html>

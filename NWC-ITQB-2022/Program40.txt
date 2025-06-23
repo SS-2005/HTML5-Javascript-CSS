@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function check()
+{
+var a,b;
+a=parseInt(document.f1.t1.value)
+if(document.f1.t1.value.length == 8)
+alert("String as 8 char");
+else
+alert("String does not have 8 char")
+}
+</script>
+</head>
+<body>
+<h1>Program 40</h1>
+<form name="f1">
+Enter text:<input type="text" name="t1">
+<br><br>
+<input type="button" value="Check" onClick="check()">
+</form>
+</body>
+</html>

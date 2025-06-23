@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Number series 1,2,...,10
+</title>
+</head>
+<body>
+<h1>Number Series 1,2,...,10 </h1>
+<script type="text/javascript">
+var i=1;
+while(i<=10);
+{
+document.write(i + "<br>");
+i++;
+}
+</script>
+</body>
+</html>

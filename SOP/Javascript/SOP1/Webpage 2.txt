@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<title>SOP1_1</title>
+<head>
+<script language="javascript">
+function violet()
+{
+document.bgColor="violet";
+setTimeout("indigo()",2000);
+}
+function indigo()
+{
+document.bgColor="indigo";
+setTimeout("blue()",2000);
+}
+function blue()
+{
+document.bgColor="blue";
+setTimeout("green()",2000);
+}
+function green()
+{
+document.bgColor="green";
+setTimeout("yellow()",2000);
+}
+function yellow()
+{
+document.bgColor="yellow";
+setTimeout("orange()",2000);
+}
+function orange()
+{
+document.bgColor="orange";
+setTimeout("red()",2000);
+}
+function red()
+{
+document.bgColor="red";
+setTimeout("violet()",2000);
+}
+</script>
+</head>
+<body onload="violet()">
+<h1 align="center">EDCSS Program</h1>
+</body>
+</html>

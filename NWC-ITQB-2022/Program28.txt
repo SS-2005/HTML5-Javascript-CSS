@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+funtion greater()
+{
+var a,b,g;
+a=parseInt(prompt("Enter No. 1"));
+b=parseInt(prompt("Enter No. 2"));
+e=Math.Max(a,b)
+document.write("Greater Number"+ e)
+}
+</script>
+</head>
+<body>
+<h1>Program 28</h1>
+<form>
+<input type="button" value="Show" onClick="greater()">
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function check()
+{
+var a,b;
+a=parseInt(document.f1.n1.value)
+if(document.f1.n1.value.length == 13)
+alert("Mobile Number");
+else
+alert("Not A Mobile Number");
+}
+</script>
+</head>
+<body>
+<h1>Program 41</h1>
+<form name="f1">
+Enter Telephone Number:<input type="number" name="n1" pattern="[0-9]{2}-[0-9]{10}" placeholder="91-0000000000"required>
+<br><br>
+<input type="button" value="Check" onClick="check()">
+</form>
+</body>
+</html>

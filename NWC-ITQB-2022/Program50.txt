@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function perimeter()
+{
+var a,b,c,d,e;
+a=parseInt(prompt("Enter Side1"));
+b=parseInt(prompt("Enter Side2"));
+c=parseInt(prompt("Enter Side3"));
+d=parseInt(prompt("Enter Side4"));
+e=a+b+c+d;
+document.write("Perimetetr of Trapezium is "+ e);
+}
+</script>
+</head>
+<body onload="perimeter()">
+<h1>Program 50</h1>
+</body>
+</html>

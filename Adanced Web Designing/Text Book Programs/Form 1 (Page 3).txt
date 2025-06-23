@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>From 1</title>
+</head>
+<body>
+<h3 align="left">Form 1</h3>
+<hr>
+<form>
+Name :<input type="text" autocomplete><br>
+Email :<input type="email" name="e1"><br>
+Date of inception :<input type="date" name="d1"><br>
+Office time :<input type="time" name="t1"><br>
+Number of Years completed(1 to 100) :<input type="number" min="1" max="100"><br>
+Office phone number :<input type="tel" name="Phone number"><br>
+Add your Homepage :<input type="url" name="Homepage"><br><br>
+<input type="image" src="submit.jpg">
+</form>
+</body>
+</html>

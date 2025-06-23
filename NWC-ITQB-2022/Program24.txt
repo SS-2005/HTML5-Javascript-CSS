@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+</head>
+<body>
+<h1>Program 24</h1>
+<script type="text/javascript">
+function table()
+{
+var i,num,tb=1;
+num=parseInt(prompt("Enter No."));
+for(i=1;i<=10;i++)
+tb=num*i;
+document.writer(num +"*"+ i +"="+ tb);
+}
+</script>
+<form>
+<input type="button" value="Multiplication Table" onClick="table()">
+</form>
+</body>
+</html>

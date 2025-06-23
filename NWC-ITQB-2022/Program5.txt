@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function cube()
+{
+var a,cube;
+a=parseInt(prompt("Enter Number"));
+cube=a*a*a
+alert("Cube Of Number=" + cube);
+}
+</script>
+</head>
+<body>
+<h1>PROGRAM 5</h1>
+cube();
+</body>
+</html>

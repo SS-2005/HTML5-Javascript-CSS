@@ -1,0 +1,91 @@
+TABLE:-
+
+<table border="2">
+<tr><th>...</th><th>...</th></tr>
+<tr><td>...</td><td>...</td></tr>
+</table>
+
+Introducing <thead>,<tfoot> and <tbody> in table:-
+
+<table border="2">
+<thead><tr><th>...</th><th>...</th></tr></thead>
+</tbody><tr><td>...</td><td>...</td></tr></tbody>
+<tfoot><tr><td colspan="2">...</td></tfoot>
+</table>
+
+FORM:-
+Attributes of form tag: name,action,method.
+
+GET METHOD:-
+defaut method,Non sensitive data,Data visible in address bar,Number of characters depends on the browser used.
+
+POST METHOD;-
+The post method of sending data doesnt show data in address bar,Secure for sensitive data,Doent not have size limitations.
+
+INPUT TYPE ATTRIBUTES;-
+
+<input type="radio">.........Radio button allows one selection againts multiple choices.
+<input type="checkbox">....Creates checkbox more than one selection for multiple choices.
+<input type=submit">....Submits the form data.
+<input type="password">...Creates a filed for entering password.
+<input type="reset">....clears the content entered in form.
+<input type="button">...DIsplays push buttons which activates on events.
+
+OTHER ATTRIBUTES ARE:-Name,Maxlength,Size,CheckeD and Value.
+
+<TEXTAREA>
+<textarea name="example" rows="" cols="" placeholder="" required>
+</textarea>
+
+<SELECT> TAG-Creates drop down list;
+Attributes of <select> tag
+Name,Multiple,Size
+
+SYNTAX:-
+<select name="s1">
+<option>Pune</option>
+<option>Nasik</option>
+<option>Solaput</option>
+</select>
+
+(extra NOTE:- "Example.php" is the name of PHP file which stores the accepted data.)
+
+JavaScript was initially createdto “make webpages alive
+Variable name can be limited up to 255 characters.
+Variable name in javascript isdeclared with keyword ‘var'.
+
+Comments in JavaScript
+Comments are non-executable statements in program. Comments are used
+to provide information or explanation about your programming construct.
+Statements added in comments are ignored by JavaScript. It supports two types
+of comments.
+1. Single line comment (//…………..) : Single line comment begin with //. The
+JavaScript ignores everything from // to the end of the line.
+2. Multiline comment : Multiline comments are used to comment on more than
+one line. It starts with /* an end with */
+
+FEATURES OF JAVASCRIPT:-
+1)Perform input data validation.
+2)It is light weight scripting language.
+3)It is case sensitive language.
+4)Makes pages more interactive.
+5)It can handle date and time effectively.
+
+#12th STANDARD:-
+
+<input type="text,time,date,datetime-local,week,month,range,file,tel,search,month,color,number,url,image,date,email">
+
+<META> Tags:-
+
+Search Engine;Singular tag;<head>...</head>;Multiple Meta tags in page
+ATTRIBUTES:-
+<meta name="description,author,copyright,keywords" content="(ANY TEXTUAL VALUE)">
+<meta charset="UTF-8,Big5">...........Specifies character encoding.
+<meta http-equiv="refresh,content-type,expires" content>
+<meta http-equiv="set-cookies">
+
+<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+
+CSS
+
+

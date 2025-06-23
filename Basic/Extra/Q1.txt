@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<title>HTML Program</title>
+</head>
+<body>
+<h1>Form</h1>
+<form name="f1">
+Student Name:<input type="text" name="t1"><br>
+Date of Birth:<input type="date" name="d1"><br>
+Email:<input type="email" name="e1"><br>
+<input type="image" src="image.jpg" alt="Submit Button" height="100" width="100">
+<input type="reset" value="reset">
+</form>
+</body> 
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>Input Restriction</title>
+</head>
+<body>
+<h1>Input Restrictions- AUTOCOMPLETE</h1>
+<form name="f1">
+Search: <input type="search" name="s1" autocomplete="on">
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

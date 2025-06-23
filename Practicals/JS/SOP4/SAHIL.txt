@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>Program</title>
+<script type="text/javascript">
+function Hello()
+{
+var i,str,rev="";
+str=document.f1.t1.value;
+for(i=str.length;i>=0;i--)
+{
+rev=rev+str.charAt(i);
+}
+document.write("given string="+str+"<br>");
+document.write("Reveresed Sting="+rev+"<br>");
+if(str==rev)
+{alert("Palindrome");}
+
+else
+{alert("Not Palindrome");}
+}
+</script>
+</head>
+<body>
+<h1>Program</h1>
+<form name="f1" method="post">
+Enter string:<input type="text" name="t1"><br>
+<input type="button" value="Check" onClick="Hello()">
+</form>
+</body>
+</html?

@@ -1,0 +1,16 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Image map</title>
+</head>
+<body>
+<h1>Image maping</h1>
+<img src="IMAGE.jpg" usemap="#IMAGE" alt="image map">
+<map name="IMAGE">
+<area href="https://www.amazon.in/Laptops/b?ie=UTF8&node=1375424031" shape="rect" coords="68,12,191,103" alt="HOTSPOT 1">
+<area href="https://www.amazon.in/PASHUPATASTRA-Panda-Glossy-Printed-Coffee/dp/B08L5KBRC2/ref=asc_df_B08L5KBRC2/?tag=googleshopdes-21&linkCode=df0&hvadid=482428784371&hvpos=&hvnetw=g&hvrand=16464956132616203946&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062106&hvtargid=pla-1413087998304&psc=1&ext_vrnc=hi" shape="circle" coords="230,114,88" alt="HOTSPOT 2">
+<area href="https://www.amazon.in/Parker-Vector-Standard-Chrome-Trim/dp/B00LZPQY4U/ref=asc_df_B00LZPQY4U/?tag=googleshopdes-21&linkCode=df0&hvadid=396984907335&hvpos=&hvnetw=g&hvrand=9214664196062674314&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062106&hvtargid=pla-405661264728&ext_vrnc=hi&th=1" shape="poly" coords="106,117,135,136,123,167,85,166,75,135" alt="HOTSPOT 3">
+</map>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function Voting()
+{
+var a,b;
+a=parseInt(document.f1.t1.value)
+if(a<=18)
+alert("Eligible For Voting");
+else
+alert("UnEligible For Voting");
+}
+</script>
+</head>
+<body>
+<h1>Program 29</h1>
+<form name="f1">
+Enter Age: <input type="text" name="t1"><br>
+Gender :<br><input type="radio" name="n1" value="Male">Male<br>
+<input type="radio" name="n2" value="Female">Female<br>
+<br><br>
+<input type="button" value="Check" onClick="Voting()">
+</form>
+</body>
+</html>

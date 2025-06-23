@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function perimeter()
+{
+var a,b,c;
+a=parseInt(prompt("Enter Length"));
+b=4*a;
+document.write("Perimetetr of Rhombus is "+ b);
+}
+</script>
+</head>
+<body>
+<h1>Program 52</h1>
+<form>A
+ Event Driven program in JavaScript to  display  perimeter of a Rhombus
+<input type="button" value="Trigger Program" onClick="perimeter()">
+</body>
+</html>

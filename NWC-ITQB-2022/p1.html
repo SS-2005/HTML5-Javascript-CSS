@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<title>JS-PROGRAMS</title>
+<script type="text/javascript">
+function Check()
+{
+var a,b,c;
+a=parseInt(document.f1.n1.value);
+b=parseInt(document.f1.n2.value);
+c=Math.max(a,b);
+document.f1.n3.value=c; 
+}
+</script>
+</head>
+<body>
+<h1>Program 1</h1>
+<form name="f1">
+Enter no.1:<input type="number" name="n1"><br>
+Enter no.2:<input type="number" name="n2"><br>
+<input type="button" value="Check Max Number" onClick="Check()">
+<br>Max No. :-<input type="number" name="n3">
+</form>
+</body>
+</html>
+
+<hr>
+<hr>
+<head>
+<script type="text/javascript">
+function ANU()
+{
+var a,b,c,d;
+a=parseInt(document.f2.n1.value);
+b=parseInt(document.f2.n2.value);
+c=parseInt(document.f2.n3.value);
+d=Math.min(a,b,c);
+document.f2.n4.value=d;
+}
+</script>
+</head>
+<body>
+<h1>Program 2</h1>
+<form name="f2">
+Enter no.1:<input type="number" name="n1"><br>
+Enter no.2:<input type="number" name="n2"><br>
+Enter no.3:<input type="number" name="n3"><br>
+<input type="button" value="Check Min No." onClick="ANU()">
+<br>Minimum No. :-<input type="number" name="n4">
+</form>
+</body>
+</html>
+<hr><hr>
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function color()
+{
+document.bgColor="red";
+}
+</script>
+</head>
+<body><h1>Program 3</h1>
+<form name="f3">
+<input type="button" value="Change" onClick="color()">
+</form>
+</body>
+</html>
+<hr><hr>
+<!DOCTYPE html>
+<html>
+<head><title>Change Color in JS</title>
+<script type="text/javascript">
+function change()
+{
+var style="<p style='color:green'>"
+var text="Click to Change Color";
+var closestyle="</p>"
+document.getElementById('para').innerHTML=style+text+closestyle;
+}
+</script>
+</head>
+<body>
+<h1>Program 4</h1>
+<p id="para">Click to Change Color</p>
+<input type="button" value="Change" onClick="change()">
+</body>
+</html>
+<hr><hr>
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function cube()
+{
+var a,cube;
+a=parseInt(document.f5.n1.value);
+cube=a*a*a;
+document.f5.n2.value=cube;
+}
+</script>
+</head>
+<body>
+<h1>PROGRAM 5</h1>
+<form name="f5">
+Enter No. <input type="number" name="n1"><br>
+Cube:     <input type="number" name="n2" read only><br>
+<input type="button" value="Calculate" onClick="cube()">
+</form>
+</body>
+</html>
+<hr><hr>
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function square()
+{
+var a,sq;
+a=document.f6.n1.value;
+sq=a*a;
+document.f6.n2.value=sq;
+}
+</script>
+</head>
+<body>
+<h1>PROGRAM 6</h1>
+<form name="f6">
+Enter Number:<input type="number" name="n1">
+<br>
+Square:<input type="number" name="n2">
+<br>
+<input type="button" value="Square" onClick="square()">
+</form>
+</body>
+</html>
+<hr><hr>
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function sum()
+{
+var i,sum;
+sum=0;
+for(i=1;i<=10;i++)
+sum=sum+i;
+document.write("Sum is="+ sum);
+}
+</script>
+</head>
+<body>
+<h1>Program 7</h1>
+<form name="f1">
+<input type="button" value="Sum" onMouseOver="sum()">
+</form>
+</body>
+</html>
+</html>
+<hr><hr>
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function sum()
+{
+var i,sum;
+sum=0;
+for(i=11;i<=30;i++)
+if(i%2==0)
+sum=sum+i;
+document.write("Sum =" sum+)
+}
+</script>
+</head>
+<body>
+<h1>Program 8</h1>
+<form name="f8">
+<input type="button" value="Sum" onMouseOver="sum()">
+</form>
+</body>
+</html>
+<hr><hr>

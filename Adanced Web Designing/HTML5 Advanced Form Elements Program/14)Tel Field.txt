@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>tel Field</title>
+</head>
+<body>
+<h1>Example of Tel Field</h1>
+<form name="f1">
+Enter Your Tel Number:     <input type="tel" name="t1">
+<br><br>
+<input type="submit" value="Confirm">
+</form>
+</body>
+</html>

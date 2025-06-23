@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function square()
+{
+var a,sq;
+a=document.f1.n1.value;
+sq=a*a;
+{
+document.write("Square is=" + sq);
+}
+}
+</script>
+</head>
+<body>
+<h1>PROGRAM 6</h1>
+<form name="f1">
+Enter Number:<input type="number" name="n1">
+<br><br>
+<input type="button" value="Square" onClick="square()">
+</form>
+</body>
+</html>

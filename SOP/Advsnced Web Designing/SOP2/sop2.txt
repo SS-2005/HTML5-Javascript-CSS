@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head> <title>Your Website</title>
+ </head>
+ <body>
+ <header>Tourist Place
+ <nav>
+ </nav>
+ </header>
+ <section>city<br>Pune
+ <article>
+ </article>
+ </section>
+ <aside>Tourist Place in Pune
+ </aside>
+ <footer>
+ </footer>
+ </body>
+</html>

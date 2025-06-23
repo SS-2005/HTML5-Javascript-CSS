@@ -1,0 +1,23 @@
+<!doctytpe html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function area()
+{
+var a,b,c;
+a=parseInt(prompt("Enter Length"));
+b=parseInt(prompt("Enter Breath"));
+c=a*b;
+alert("Area of Rectangle is "+ c);
+}
+</script>
+</head>
+<body>
+<h1>Program 58</h1>
+<form><b>Q .</b>Write a Event Driven program in JavaScript to accept  
+L and b from user and Display Area of Rectangle.<br><br>
+<b>Formula</b>:Area =b*l <br><br><br>
+<b>Solution :</b><input type="button" value="Trigger Program on Click" onClick="area()">
+</body>
+</html>

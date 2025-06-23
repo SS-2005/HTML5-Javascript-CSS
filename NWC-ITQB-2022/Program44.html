@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function leap()
+{
+var a,b;
+a=document.f1.n1.value;
+if((a%400==0)||(a%4==0)&&(a%100 !==0))
+alert("True");
+else
+alert("False");
+}
+</script>
+</head>
+<body>
+<h1>Program 44</h1>
+<form name="f1">
+Enter year:<input type="number" name="n1"><br><br>
+<input type="button" value="Check" onClick="leap()">
+</form>
+</body>
+</html>

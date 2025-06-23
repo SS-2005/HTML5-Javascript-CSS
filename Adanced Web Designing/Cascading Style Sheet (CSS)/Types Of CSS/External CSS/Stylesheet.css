@@ -1,0 +1,15 @@
+h1{
+font-family:arial;
+color:red;
+letter-spacing:5px;
+text-align:center;
+text-decoration:overline
+}
+
+p{
+text-align:left;
+font-family:modern;
+color:yellow;
+font-style:oblique
+}
+body{background-color:maroon}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function Reverse()
+{
+var str,a,rev;
+rev="";
+str=document.f1.t1.value;
+for(a=str.length;a>=0;a--)
+rev=rev+str.charAt(a);
+document.f1.t2.value=rev;
+}</script>
+</head>
+<body>
+<h1>Program 19</h1>
+<form name="f1">
+Enter String: <input type="text" name="t1"><br>
+<br>
+<input type="button" value="Reverse The String on Click" onClick="Reverse()">
+<br><br>
+Reversed String :<input type="text" name="t2">
+</form>
+</html>
+</body>

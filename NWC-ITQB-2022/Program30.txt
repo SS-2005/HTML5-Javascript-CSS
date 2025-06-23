@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function addition()
+{
+var a,b,c;
+a=parseInt(prompt("Enter No.1"));
+b=parseInt(prompt("Enter No.2"));
+c=a+b;
+alert("Addition of Number is" + c);
+}
+</script>
+</head>
+<body>
+<h1>Program 30</h1>
+<script type="text/javascript">
+addition();
+</script>
+</body>
+</html>

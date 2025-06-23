@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+<title>Example of <meta> Tag</title>
+<meta name="author" content="Balbharti">
+<meta name="discription" content="Advanced Web Designing">
+<meta name="copyright" content="copyright are reserved with HSC board">
+<meta name="keyword" content="HTML5,CSS,tables/list/audio/video in html">
+</head>
+<body>
+<p>Welcome to HTML5 </p>
+</html>

@@ -1,0 +1,15 @@
+<!Doctype html>
+<html>
+<head>
+<title> Use of <meta> Tags</title>
+<meta name="author" content="HSC board">
+<meta name="keyword" content="CSS,JAVA,HTML, Audio">
+<meta name="discription" content="HTML5 tutorials">
+<meta name="copyright" content="All Rights are resolved with HSC Board">
+<meta charset="UTF-8">
+<meta http-equiv="expires" content="5'>
+</head>
+<body>
+<h1>Welcome to HTML 5 Programming</h1>
+</body>
+</html>

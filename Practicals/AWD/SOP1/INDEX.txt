@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta name="HTML" content="Webpage">
+<meta name="Program" content="NWC">
+<meta charset="UTF-8">
+<meta name="copyright" content="ALL rights are reserved">
+<title>First Page</title>
+<style>
+h1{font-family:calibri;letter-spacing:10px;font-style:underline;color:marron;backgroundcolor:grey}
+p{font-family:arial;font-weight:50;backgroundcolor:red;color:black}
+body{backgroundcolor:marron}
+</style>
+</head>
+<body>
+<h1>Welcome</h1>
+<p><b>wadia</b></p><br>
+<p><i>NWC</i></p><br>
+<p><ins>College</ins></p><br>
+<img src="IMAGE.jpg" height="100" width="100" alt="NWC"><br>
+<a href="https://www.google.com/">For Information</a><br>
+<a href=""https://www.youtube.com/>For Videos</a> <br>
+<a href="Page2.html">Form</a><br>
+</body>
+</html>

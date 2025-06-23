@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>SOP3</title>
+<link href="External.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Required Information</h1>
+<p>Here is your Infromation</p>
+<ul>
+<li>Name of Tarnspoter-Air Asia</li>
+<li>Time-09:30 AM</li>
+<li>Seat no-B39</li>
+<li>Destination-Delhi</li>
+</ul>
+<br><br>
+<a href="Page1.html">Previous Page</a>
+</body>
+</html>

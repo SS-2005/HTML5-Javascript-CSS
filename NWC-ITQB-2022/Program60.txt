@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function Area()
+{
+var a,b,c,d;
+a=parseInt(document.f1.n1.value);
+b=parseInt(document.f1.n2.value);
+c=parseInt(document.f1.n3.value);
+d=a/2*b+c;
+document.f1.n4.value=d;
+}
+</script>
+</head>
+<body>
+<h1>Program 60</h1>
+a Event Driven program in JavaScript to display Area of Trapezoid ,accept required value from user
+<br>
+<b>Formula :</b>Area = (h/2)*(b1+b2)  <br><br>
+<form name="f1">
+Enter Height : <input type="number" name="n1"><br>
+Enter Base(b1) : <input type="number" name="n2"><br>
+Enter Base(b2) : <input type="number" name="n3"><br>
+<br>
+<input type="button" value="Trigger Program on Click" onClick="Area()">
+<br><br>
+Area :<input type="number" name="n4">
+</form>
+</body>
+</html>

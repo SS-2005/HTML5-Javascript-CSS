@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>2)Input Restriction-MIN & MAX</title>
+</head>
+<body>
+<h1>2)Input Restriction-MIN AND MAX</h1>
+<form name="f1">
+Enter your age:<input type="number" name="n1" min="1" max="100">
+<br>
+<br>
+<br>
+<input type="Submit">
+</form></body></html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Time</title>
+</head>
+<body>
+<h1>Example of time picker</h1>
+<form name="f1">
+Enter time: <input type="time">
+<br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

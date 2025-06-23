@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Video in html5</title>
+</head>
+<body>
+<h1>Example of <video> tag</h1>
+<video width="320" heigth="240" controls loop autoplay>
+<source src="anu.ogv" type="video/ogv">
+<source src="xyz.mp4" type="video/mp4">
+<source src="sample.webM" type="video/webM">
+</video>
+</body>
+</html>

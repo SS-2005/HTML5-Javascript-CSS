@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Program 3</title>
+<script type="text/javascript">
+function colour()
+{
+document.bgcolor="red";
+}
+</script>
+</head>
+<body><h1>Program 3</h1>
+<form name="f1">
+<input type="button" value="Change" onClick="colour()">
+</form>
+</body>
+</html>
+<hr><hr>

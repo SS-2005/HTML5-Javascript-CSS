@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function Area()
+{
+var a,b,c;
+a=parseInt(document.f1.n1.value);
+b=parseInt(document.f1.n2.value);
+c=3.14*a*b;
+document.f1.n3.value=c;
+}
+</script>
+</head>
+<body>
+<h1>Program 59</h1>
+Event Driven program in JavaScript to display Area of ellipse,accept required value from user.
+<br>
+<b>Formula :</b>Area = 3.14*r1*r2 <br><br>
+<form name="f1">
+Enter Radius(r1) : <input type="number" name="n1"><br>
+Enter Radius(r2) : <input type="number" name="n2"><br>
+<br>
+<input type="button" value="Trigger Program on Click" onClick="Area()">
+<br><br>
+Area :<input type="number" name="n3">
+</form>
+</body>
+</html>

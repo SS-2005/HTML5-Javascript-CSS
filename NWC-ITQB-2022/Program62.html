@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function Convert()
+{
+var a,b;
+a=parseInt(document.f1.n1.value);
+b=a*9/5+32;
+document.f1.n2.value=b;
+}
+</script>
+</head>
+<body>
+<h1>Program 62</h1>
+A Event Driven program in JavaScript to Convert celsius to farenheit.
+<br>
+<b>Formula :</b>farenheit=c*9/5+32<br><br>
+<form name="f1">
+Enter Temp in Celsius : <input type="number" name="n1"><br>
+<br>
+<input type="button" value="Trigger Program on Click" onClick="Convert()">
+<br><br>
+In farenheit:<input type="number" name="n2">
+</form>
+</body>
+</html>

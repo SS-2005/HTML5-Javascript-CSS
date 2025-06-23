@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title>SOP3</title>
+<link href="Travel.css" rel="stylesheet" type="text/css">
+</head>
+<body> <h1>Traveller Details</h1>
+<p>Enter the Following details</p>
+Name of Traveller :<input type="text" name="t1"><br><br> Date of Travel:<input type="date" name="d1"><br><br>
+Telephone Number: <input type="tel" name="p1"><br><br>
+<input type="image" src="Submit.jpg" alt="Submit Button" height="100" width="100"> <br><br><br>
+<h5>Second Page</h5>
+<a href="Second Page.html">Next Page</a>
+</body> 
+</html>

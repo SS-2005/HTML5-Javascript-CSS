@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+</head>
+<body>
+<h1>Program 21</h1>
+<script type="text/javascript">
+function display()
+{
+document.bgColor="blue";
+}
+</script>
+<form name="f1">
+<input type="button" value="Display" onClick="display()">
+</form>
+</body>
+</html>

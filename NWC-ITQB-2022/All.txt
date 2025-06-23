@@ -1,0 +1,27 @@
+<!doctye html>
+<html>
+<head>
+<title>Math Object</title>
+<script type="text/javascript">
+function Gr()
+{
+var a,b,c,d;
+a=parseInt(document.f1.t1.value);
+b=parseInt(document.f1.t1.value);
+c=parseInt(document.f1.t1.value);
+d=Math.max(a,b,c);
+document.f1.t4.value=d;
+}
+</script>
+</head>
+<body>
+<h1>Program</h1>
+<form name="f1" method="POST" action="example.php">
+Enter number 1:<input type="number" value="t1"><br>
+Enter number 2:<input type="number" value="t2"><br>
+Enter number 3:<input type="number" value="t3"><br>
+<br><input type="button" value="Check" onClick="Gr()"><br>
+Greatest No.:<input type="number" value="t4"><br>
+</form>
+</body>
+</html>

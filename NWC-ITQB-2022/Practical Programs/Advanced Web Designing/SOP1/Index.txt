@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>SOP_1</title>
+<meta name="Authour" content="Balbharti">
+<meta name="HSC" content="HTML,CSS">
+<meta name="Practical" content="SOP1-PART1">
+<meta name="Information Technology" content="Practical">
+<meta name="Copyrights" content="Reserved with HSC board">
+<meta charset="UTF-8">
+<style>
+h1{font-weight:50;letter-spacing:10px;font-style:oblique;color:maroon;background-color:yellow}
+p{text-decoration:underline;text-align:center;color:red;font-family:calibri}
+body{background-color:yellow}
+</style>
+</head>
+<body>
+<h1 align="center">Nowrosjee Wadia college</h1>
+<p><b>General Information 1</b></p><br>
+<p><i>General Information 2</i></p><br>
+<p><ins>General Information 3</ins></p><br><br>
+<img src="Tulips.jpg" height="100" width="100" alt="Tulips image"><br><br><br>
+<a href="Page2.html">Feedback Form</a><br>
+<a href="http://web.whatsapp.com">Whatsapp</a>
+</body>
+</html>

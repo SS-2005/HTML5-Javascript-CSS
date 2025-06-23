@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB<title>
+</head>
+<body>
+<h1>Program 22</h1>
+<script type="text/javascript">
+function check()
+{
+var a;
+a=document.f1.t1.value;
+if(a == null)
+alert("Blank Field")
+else
+alert("Not a blank filed")
+}
+</script>
+<form name="f1">
+Enter Name: <input type="text" name="t1"><br><br>
+<input type="button" value="Check" onClick="check()">
+</form>
+</body>
+</html>

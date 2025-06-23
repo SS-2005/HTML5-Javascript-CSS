@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>WEBPAGE 2</title>
+<meta name="author" content="Offcial site">
+<meta name="keywords" content="feedback,enrolment">
+<meta name="discription" content="feedback of the previous page">
+<meta name="copyright" content="All Copyrights are reserved">
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>fORM</H1>
+<a href="Webpage 1.html">Webpage 1</a>
+Feedack/Enrolment of the above form 
+<form name="f1">
+Enter name <input type="text" name="t1" required><br>
+Select date <input type="datetime-local">
+Enter Email <input type="email" name="e1" required><br>
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

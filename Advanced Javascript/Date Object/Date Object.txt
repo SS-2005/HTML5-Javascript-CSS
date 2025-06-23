@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Date Object</title>
+</head>
+<body>
+<h1>Date Object Methods</h1>
+<script type="text/javascript">
+var a=new Date();
+var b=a.getDate();
+var c=a.getFullYear();
+var d=a.getMonth();
+var e=a.getDay();
+var f=a.getHours();
+var g=a.getMinutes();
+var h=a.getSeconds();
+var i=a.getTime();
+document.write("Today is="+a+"<br>");
+document.write("Current Day="+b+"<br>");
+document.write("Current Year="+c+"<br>");
+document.write("Current Month="+d+"<br>");
+document.write("Current Day of Week="+e+"<br>");
+document.write("Current Hour="+f+"<br>");
+document.write("Current Minute="+g+"<br>");
+document.write("Current Second="+h+"<br>");
+document.write("Time Since 1st Jan(1971)="+i+"<br>");
+</script>
+</body>
+</html>

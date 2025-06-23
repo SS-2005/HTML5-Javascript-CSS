@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Page2</title>
+<meta name="keyword" content="HTML5,CSS">
+<meta name=""Author" content="HSC board">
+<meta name="description" content="website">
+<meta name="copyright" content="HSC  board">
+<meta charset="UTF-8">
+<meta/>
+<style>
+h1{font-family:arial;text-align:center;background-color:grey;font-decoration:underline}
+p{font-family:magneto}
+body{background-color:skyblue}
+</style>
+</head>
+<body>
+<h1>Feedback form</h1>
+<p>Enter the following details</p>
+<form name="f1" method="POST">
+Name:<input type="text" name="t1" required><br><br>
+Gender:<input type="radio" name="r1" value="male">Male<br>
+<input type="radio" name="r2" value="Female">Female<br><br>
+Email:<input type="email" name="e1" required><br><br>
+<input type="submit" value="Submit">
+</form>
+<a href="INDEX.html">Previous Page</a>
+</body>
+</html>

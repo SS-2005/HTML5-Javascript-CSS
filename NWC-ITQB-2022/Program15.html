@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>ITQB</title>
+<script type="text/javascript">
+function sum()
+{
+var i,sum;
+sum=0;
+for(i=1;i<=10;i++)
+if(i%2==0)
+sum=sum+i;
+document.write("Sum Even No. Between 1-10 is " +sum +"<br>");
+}
+
+function display()
+{
+var i,sum;
+sum=0;
+for(i=1;i<=10;i++)
+if(i%2 !==0)
+sum=sum+i;
+document.write("Sum Odd No. Between 1-10 is " +sum +"<br>");
+}
+</script>
+</head>
+<body>
+<h1>Program 8</h1>
+<form name="f1">
+<input type="button" value="Sum of Even" onMouseOver="sum()"><br><br>
+<input type="button" value="Sum of Odd" onMouseOver="display()"><br><br>
+<input type="button" value="SUM OF BOTH" onClick="sum()+display()">
+</form>
+</body>
+</html>
